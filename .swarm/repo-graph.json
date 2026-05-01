@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "workspaceRoot": "/home/pbolk/GitHub/Rouge1980_python",
+  "nodes": {
+    "/home/pbolk/GitHub/Rouge1980_python/src/__init__.py": {
+      "filePath": "/home/pbolk/GitHub/Rouge1980_python/src/__init__.py",
+      "moduleName": "src/__init__.py",
+      "exports": [],
+      "imports": [],
+      "language": "python",
+      "mtime": "2026-05-01T23:26:42.585Z"
+    },
+    "/home/pbolk/GitHub/Rouge1980_python/src/domain/__init__.py": {
+      "filePath": "/home/pbolk/GitHub/Rouge1980_python/src/domain/__init__.py",
+      "moduleName": "src/domain/__init__.py",
+      "exports": [],
+      "imports": [],
+      "language": "python",
+      "mtime": "2026-05-01T23:26:42.850Z"
+    },
+    "/home/pbolk/GitHub/Rouge1980_python/src/presentation/__init__.py": {
+      "filePath": "/home/pbolk/GitHub/Rouge1980_python/src/presentation/__init__.py",
+      "moduleName": "src/presentation/__init__.py",
+      "exports": [],
+      "imports": [],
+      "language": "python",
+      "mtime": "2026-05-01T23:26:42.948Z"
+    },
+    "/home/pbolk/GitHub/Rouge1980_python/src/data/__init__.py": {
+      "filePath": "/home/pbolk/GitHub/Rouge1980_python/src/data/__init__.py",
+      "moduleName": "src/data/__init__.py",
+      "exports": [],
+      "imports": [],
+      "language": "python",
+      "mtime": "2026-05-01T23:26:43.059Z"
+    },
+    "/home/pbolk/GitHub/Rouge1980_python/src/utils/__init__.py": {
+      "filePath": "/home/pbolk/GitHub/Rouge1980_python/src/utils/__init__.py",
+      "moduleName": "src/utils/__init__.py",
+      "exports": [],
+      "imports": [],
+      "language": "python",
+      "mtime": "2026-05-01T23:26:43.097Z"
+    }
+  },
+  "edges": [],
+  "metadata": {
+    "generatedAt": "2026-05-01T23:26:43.114Z",
+    "generator": "repo-graph",
+    "nodeCount": 5,
+    "edgeCount": 0
+  }
+}

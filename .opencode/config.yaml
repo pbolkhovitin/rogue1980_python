@@ -1,0 +1,58 @@
+# OpenCode Agent Configuration for Rogue 1980 Project
+
+project:
+  name: "Rogue 1980 Clone"
+  language: "python"
+  version: "3.10"
+
+skills:
+  - python-310-dev
+  - python-testing
+  - python-curses
+  - python-json
+  - roguelike-mechanics
+  - dungeon-generation
+  - pathfinding
+  - fov-raycasting
+  - game-ai
+  - clean-architecture
+  - design-patterns
+  - extensible-design
+  - code-quality
+  - git-workflow
+
+rules:
+  strict_layer_separation: true
+  max_lines_per_file: 300
+  require_type_hints: true
+  require_docstrings: true
+  commit_format: "\[stage [0-9]+\] .+"
+  working_branch: "develop"
+  forbidden_patterns:
+    - "global "
+    - "except:"
+    - "from presentation import"
+    - "from data import"
+
+tools:
+  linter: "mypy"
+  linter_flags: "--strict"
+  formatter: "black"
+  formatter_args: "--line-length 100"
+  importer: "isort"
+  test_runner: "pytest"
+  test_coverage_min: 80
+
+bonuses:
+  doors_and_keys: false
+  dynamic_balance: false
+  mimic: false
+  mode_3d: false
+
+paths:
+  src: "src/"
+  tests: "tests/"
+  saves: "saves/"
+  stats: "stats/"
+
+entrypoint: "src/main.py"

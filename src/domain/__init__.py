@@ -1,0 +1,1 @@
+# Domain Layer - Game Entities and Logic

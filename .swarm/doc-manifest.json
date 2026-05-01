@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "scanned_at": "2026-05-01T23:09:00.742Z",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "title": "Rogue 1980 Python Project",
+      "summary": "Ты — агент разработки (opencode). Задача — реализовать игру Rogue 1980 на Python 3.10 с библиотекой curses. - **Название**: Rogue 1980 Clone - **Язык**: Python 3.10 - **Интерфейс**: curses (консоль...",
+      "lines": 192,
+      "mtime": 1777676081473.4448
+    },
+    {
+      "path": "docs/REQUIREMENTS_FOR_DEEPSEEK.md",
+      "title": "Требования к настройке opencode для разработки Rogue 1980",
+      "summary": "> Этот файл передается в deepseek для подготовки конфигурации opencode - **Проект**: Реализация roguelike-игры Rogue 1980 на Python 3.10 - **Рабочая папка**: `/home/pbolk/GitHub/Rouge1980_python` -...",
+      "lines": 160,
+      "mtime": 1777674085128.1848
+    },
+    {
+      "path": "docs/TASK.md",
+      "title": "Задание: Разработка Rogue 1980 на Python",
+      "summary": "Задание требует реализовать roguelike-игру на Python 3.10 с curses, строго следуя механикам Rogue 1980 с описанными упрощениями. Основная часть – Задания 0–5. Дополнительные Задания 6–9 не обязател...",
+      "lines": 104,
+      "mtime": 1777674037827.6436
+    },
+    {
+      "path": "docs/TODO.md",
+      "title": "To-do лист (детализированные задачи по этапам)",
+      "summary": "- [ ] Создать проект, виртуальное окружение, установить зависимости (curses встроена, pytest, mypy, black). - [ ] Настроить структуру папок `src/domain`, `src/presentation`, `src/data`, `src/utils`...",
+      "lines": 67,
+      "mtime": 1777674038115.239
+    }
+  ]
+}

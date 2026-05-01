@@ -1,0 +1,6 @@
+{"ts":"2026-05-01T23:09:15.682Z","sessionID":"ses_21a328b25ffewVyDVDoc311i2z","agent":"build","tool":"bash","command":"ls -la .swarm 2>/dev/null || echo \"No .swarm directory found\""}
+{"ts":"2026-05-01T23:09:22.432Z","sessionID":"ses_21a328b25ffewVyDVDoc311i2z","agent":"build","tool":"bash","command":"ls -la .swarm/evidence/ .swarm/session/ 2>/dev/null"}
+{"ts":"2026-05-01T23:23:04.468Z","sessionID":"ses_21a328b25ffewVyDVDoc311i2z","agent":"build","tool":"bash","command":"ls -la .swarm/evidence/ 2>/dev/null | head -20"}
+{"ts":"2026-05-01T23:26:38.854Z","sessionID":"ses_21a227ef5ffe4lb2e2Q94ATKan","agent":"coder","tool":"bash","command":"ls -la"}
+{"ts":"2026-05-01T23:26:40.600Z","sessionID":"ses_21a227ef5ffe4lb2e2Q94ATKan","agent":"coder","tool":"bash","command":"ls -la src/"}
+{"ts":"2026-05-01T23:27:12.747Z","sessionID":"ses_21a328b25ffewVyDVDoc311i2z","agent":"architect","tool":"bash","command":"git init && git add . && git commit -m \"Initial commit: project structure\" 2>&1 || echo \"Git already initialized or error\""}

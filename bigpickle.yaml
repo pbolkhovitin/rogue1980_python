@@ -1,0 +1,6 @@
+# bigpickle.yaml (или в настройках Big Pickle)
+agent: opencode
+working_dir: /home/pbolk/GitHub/Rouge1980_python
+rules_dir: .opencode/
+todo_file: docs/TODO.md
+entrypoint: src/main.py
