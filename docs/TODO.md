@@ -1,10 +1,11 @@
 # To-do лист (детализированные задачи по этапам)
 
-## Этап 0 – Подготовка
-- [ ] Создать проект, виртуальное окружение, установить зависимости (curses встроена, pytest, mypy, black).
-- [ ] Настроить структуру папок `src/domain`, `src/presentation`, `src/data`, `src/utils`.
-- [ ] Создать `main.py` с `curses.wrapper` и пустым игровым циклом.
-- [ ] Настроить pre-commit для автоформатирования и линтинга.
+## Этап 0 – Подготовка (COMPLETE)
+- [x] Создать проект, виртуальное окружение, установить зависимости (curses встроена, pytest, mypy, black).
+- [x] Настроить структуру папок `src/domain`, `src/presentation`, `src/data`, `src/utils`.
+- [x] Создать `main.py` с `curses.wrapper` и пустым игровым циклом.
+- [x] Создать `config.py` с флагами бонусов и константами игры.
+- [x] Настроить Makefile с командами run, test, mypy, format, check.
 
 ## Этап 1 – Domain сущности
 - [ ] Реализовать `Position` (dataclass) и `Direction`.

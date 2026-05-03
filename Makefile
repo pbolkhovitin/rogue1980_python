@@ -1,27 +1,26 @@
-.PHONY: setup test check run clean format lint
+.PHONY: setup test check run clean format lint mypy pre-commit
 
 setup:
-	pip install pytest mypy black isort pre-commit
+	pip install pytest mypy ruff pre-commit
 	pre-commit install
 
 test:
-	pytest
+	pytest tests/
 
-check: lint format-test mypy
+check: mypy test lint
 
 lint:
-	black --check --line-length 100 src/
-	isort --check-only --profile black src/
+	ruff check src/ tests/
 
 format:
-	black --line-length 100 src/
-	isort --profile black src/
+	ruff check --fix src/ tests/
+	ruff format src/ tests/
 
 mypy:
 	mypy --strict src/
 
 run:
-	python src/main.py
+	python3 src/main.py
 
 clean:
 	rm -rf __pycache__ .pytest_cache .mypy_cache

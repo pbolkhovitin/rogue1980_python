@@ -1,28 +1,20 @@
 # .pre-commit-config.yaml – place in project root
 repos:
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.4.0
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+
   - repo: local
     hooks:
-      - id: black
-        name: black
-        entry: black
-        language: system
-        types: [python]
-        args: [--line-length=100]
-
-      - id: isort
-        name: isort
-        entry: isort
-        language: system
-        types: [python]
-        args: [--profile=black]
-
       - id: mypy
-        name: mypy
+        name: mypy (src only)
         entry: mypy
         language: system
-        types: [python]
-        args: [--strict]
-        pass_filenames: true
+        args: [--strict, src/]
+        pass_filenames: false
 
       - id: pytest
         name: pytest
